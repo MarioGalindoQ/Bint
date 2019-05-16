@@ -323,8 +323,10 @@ Bint Bint::Bpow(int p) const
 {
   if(p < 0) {cerr << "Negative power not implemented error: Bpow("<<*this<<","<<p<<")\n"; exit(1);}
   if(p == 0)
+  {
     if(*this==0) {cerr << "Undefined Bpow(0,0) error\n"; exit(1);}
     else return 1;
+  }
   if(*this == 1) return *this;
   
   int sign = 1;
