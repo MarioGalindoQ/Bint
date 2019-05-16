@@ -142,7 +142,7 @@ Bint::Bint(const string& str) : s(1), n()
  
   int i=0;
   while(t[i]=='0') ++i;
-  if(i>0) t.erase(0,i-1);
+  if(i>0) t.erase(0,i);
  
   if(t.size()==0) {s=0; return;}
  
