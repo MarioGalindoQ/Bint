@@ -1,5 +1,5 @@
 # Bint
-##C++ Big Integer Library
+# C++ Big Integer Library
 
 This is a very simple library to do Big Integer arithmetic in C++.
 
